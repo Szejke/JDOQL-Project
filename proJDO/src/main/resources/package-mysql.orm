@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<!DOCTYPE orm SYSTEM "file:/javax/jdo/orm.dtd">
+<orm>
+    <package name="model">
+
+  <class name="Film" table="FILM">
+            <inheritance strategy="new-table"/>
+            <field name="filmyId">
+                <column name="FilmyID"/>
+            </field>
+            <field name="tytulFilmu">
+                <column name="TytulFilmy" length="100"/>
+            </field>
+            <field name="rok">
+                <column name="Rok" length="100"/>
+            </field>
+            <field name="obrazek">
+           <column name="Obrazek" length="100"/>
+          </field>
+          <field name="opis">
+          <column name="Opis" length="100"/>
+          </field>
+          <field name="usuniecie">
+          <column name="Usuniecie" length="100"/>
+          </field>
+          <field name="rezyser">
+          <column name="Rezyser" length="100"/>
+          </field>
+        </class>
+
+
+
+               <class name="Kategorie" table="KATEGORIE">
+               <inheritance strategy="new-table"/>
+               <field name="kategorieId">
+                <column name="KategorieId"/>
+                </field>
+                 <field name="nazwaKategorii">
+                <column name="NazwaKategorii" length="100"/>
+                 </field>
+                </class>
+
+
+               <class name="Role" table="ROLE">
+               <inheritance strategy="new-table"/>
+               <field name="roleId">
+               <column name="RoleID"/>
+               </field>
+               <field name="nazwa">
+              <column name="Nazwa" length="100"/>
+               </field>
+                </class>
+
+
+
+             <class name="Status" table="STATUS">
+              <inheritance strategy="new-table"/>
+               <field name="statusId">
+               <column name="StatusId"/>
+               </field>
+               <field name="nazwaStatus">
+              <column name="NazwaStatus" length="100"/>
+             </field>
+                 </class>
+
+
+
+               <class name="UprawnieniaUz" table="UPRAWNIENIAUZ">
+                <inheritance strategy="new-table"/>
+                   <field name="uprawnieniaUzId">
+                  <column name="UprawnieniaUzId"/>
+                  </field>
+                 <field name="roleId">
+                  <column name="RoleId"/>
+                </field>
+                <field name="uzytkownikId">
+                  <column name="UzytkownikId"/>
+                   </field>
+                   </class>
+
+
+                  <class name="Uzytkownicy" table="UZYTKOWNICY">
+                             <inheritance strategy="new-table"/>
+                             <field name="id">
+                                 <column name="ID"/>
+                             </field>
+                             <field name="imie">
+                                 <column name="Imie" length="100"/>
+                             </field>
+                             <field name="nazwisko">
+                                 <column name="Nazwisko" length="100"/>
+                             </field>
+                             <field name="email">
+                            <column name="Email" length="100"/>
+                           </field>
+                           <field name="haslo">
+                           <column name="Haslo" length="100"/>
+                           </field>
+                           <field name="kodAktywacyjny">
+                           <column name="KodAktywacyjny" length="100"/>
+                           </field>
+                           <field name="usuniecie">
+                           <column name="Usuniecie" length="100"/>
+                           </field>
+                         </class>
+
+    </package>
+</orm>

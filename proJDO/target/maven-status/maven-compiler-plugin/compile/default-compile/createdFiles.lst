@@ -1,0 +1,12 @@
+sample\Gui.class
+sample\Controller.class
+model\Filmy.class
+model\Status.class
+sample\Database.class
+sample\SelectQuery.class
+model\Katalog.class
+model\Role.class
+model\UprawnieniaUz.class
+model\Kategorie.class
+sample\Main.class
+model\Uzytkownicy.class

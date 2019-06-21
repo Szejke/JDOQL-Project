@@ -1,0 +1,1036 @@
+17:14:14,807 (main) DEBUG [DataNucleus.General] - Using PluginRegistry org.datanucleus.plugin.NonManagedPluginRegistry
+17:14:14,843 (main) DEBUG [DataNucleus.General] - Registering bundle org.sonatype.inject version 2.3.0 at URL file:/C:/Users/cotam/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar.
+17:14:14,872 (main) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/cotam/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+17:14:14,878 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus version 5.2.1 at URL file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-core/5.2.1/datanucleus-core-5.2.1.jar.
+17:14:14,885 (main) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-core/5.2.1/datanucleus-core-5.2.1.jar!/plugin.xml.
+17:14:14,894 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.api.jdo version 5.2.1 at URL file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.2.1/datanucleus-api-jdo-5.2.1.jar.
+17:14:14,908 (main) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.2.1/datanucleus-api-jdo-5.2.1.jar!/plugin.xml.
+17:14:14,916 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.store.rdbms version 5.2.1 at URL file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-rdbms/5.2.1/datanucleus-rdbms-5.2.1.jar.
+17:14:14,924 (main) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-rdbms/5.2.1/datanucleus-rdbms-5.2.1.jar!/plugin.xml.
+17:14:14,968 (main) DEBUG [DataNucleus.Persistence] - Java types support initialising ...
+17:14:15,175 (main) DEBUG [DataNucleus.Persistence] - Java types support loaded : supported java types=[B, [C, [D, [F, [I, [J, [Ljava.lang.Boolean;, [Ljava.lang.Byte;, [Ljava.lang.Character;, [Ljava.lang.Double;, [Ljava.lang.Enum;, [Ljava.lang.Float;, [Ljava.lang.Integer;, [Ljava.lang.Long;, [Ljava.lang.Number;, [Ljava.lang.Object;, [Ljava.lang.Short;, [Ljava.lang.String;, [Ljava.math.BigDecimal;, [Ljava.math.BigInteger;, [Ljava.util.Date;, [Ljava.util.Locale;, [S, [Z, boolean, byte, char, double, float, int, java.awt.Color, java.awt.image.BufferedImage, java.lang.Boolean, java.lang.Byte, java.lang.Character, java.lang.Class, java.lang.Double, java.lang.Enum, java.lang.Float, java.lang.Integer, java.lang.Long, java.lang.Number, java.lang.Short, java.lang.String, java.lang.StringBuffer, java.lang.StringBuilder, java.math.BigDecimal, java.math.BigInteger, java.net.URI, java.net.URL, java.sql.Date, java.sql.Time, java.sql.Timestamp, java.time.Duration, java.time.Instant, java.time.LocalDate, java.time.LocalDateTime, java.time.LocalTime, java.time.MonthDay, java.time.OffsetDateTime, java.time.OffsetTime, java.time.Period, java.time.Year, java.time.YearMonth, java.time.ZonedDateTime, java.time.ZoneId, java.time.ZoneOffset, java.util.ArrayList, java.util.Arrays$ArrayList, java.util.BitSet, java.util.Calendar, java.util.Collection, java.util.Currency, java.util.Date, java.util.GregorianCalendar, java.util.HashMap, java.util.HashSet, java.util.Hashtable, java.util.LinkedHashMap, java.util.LinkedHashSet, java.util.LinkedList, java.util.List, java.util.Locale, java.util.Map, java.util.Optional, java.util.PriorityQueue, java.util.Properties, java.util.Queue, java.util.Set, java.util.SortedMap, java.util.SortedSet, java.util.Stack, java.util.TimeZone, java.util.TreeMap, java.util.TreeSet, java.util.UUID, java.util.Vector, long, short
+17:14:15,177 (main) DEBUG [DataNucleus.Persistence] - Type converter support initialising ...
+17:14:15,251 (main) DEBUG [DataNucleus.Persistence] - Type converter support loaded
+17:14:15,252 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for byte[] to : java.nio.ByteBuffer
+17:14:15,252 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for char[] to : java.nio.ByteBuffer
+17:14:15,252 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for double[] to : java.nio.ByteBuffer
+17:14:15,252 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for float[] to : java.nio.ByteBuffer
+17:14:15,253 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for int[] to : java.nio.ByteBuffer
+17:14:15,253 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for long[] to : java.nio.ByteBuffer
+17:14:15,253 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for [Ljava.math.BigDecimal; to : java.nio.ByteBuffer
+17:14:15,253 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for [Ljava.math.BigInteger; to : java.nio.ByteBuffer
+17:14:15,253 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for short[] to : java.nio.ByteBuffer
+17:14:15,254 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for boolean[] to : java.nio.ByteBuffer
+17:14:15,254 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.awt.Color to : int[],java.lang.String
+17:14:15,254 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.awt.image.BufferedImage to : java.nio.ByteBuffer,byte[]
+17:14:15,254 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.io.Serializable to : java.nio.ByteBuffer,byte[],java.lang.String
+17:14:15,254 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Boolean to : java.lang.Integer,java.lang.Character
+17:14:15,254 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Character to : java.lang.String
+17:14:15,254 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Class to : java.lang.String
+17:14:15,255 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Integer to : java.lang.String
+17:14:15,255 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Long to : java.lang.String
+17:14:15,255 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.StringBuffer to : java.lang.String
+17:14:15,255 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.StringBuilder to : java.lang.String
+17:14:15,255 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.math.BigDecimal to : java.lang.String,java.lang.Double
+17:14:15,256 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.math.BigInteger to : java.lang.String,java.lang.Long
+17:14:15,256 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.net.URI to : java.lang.String
+17:14:15,256 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.net.URL to : java.lang.String
+17:14:15,256 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.sql.Date to : java.lang.String,java.lang.Long,java.util.Date
+17:14:15,256 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.sql.Time to : java.lang.String,java.lang.Long,java.util.Date
+17:14:15,256 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.sql.Timestamp to : java.lang.String,java.lang.Long,java.util.Date
+17:14:15,256 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.Duration to : java.lang.String,java.lang.Double,java.lang.Long
+17:14:15,257 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.Instant to : java.sql.Timestamp,java.lang.String,java.util.Date,java.lang.Long
+17:14:15,257 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.LocalDate to : java.lang.String,java.util.Date,java.sql.Date
+17:14:15,257 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.LocalDateTime to : java.sql.Timestamp,java.lang.String,java.util.Date
+17:14:15,257 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.LocalTime to : java.sql.Time,java.lang.String,java.util.Date,java.lang.Long
+17:14:15,257 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.MonthDay to : int[],java.lang.String,java.util.Date,java.sql.Date
+17:14:15,257 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.OffsetDateTime to : java.sql.Timestamp,java.lang.String,java.util.Date
+17:14:15,257 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.OffsetTime to : java.sql.Time,java.lang.String,java.lang.Long
+17:14:15,257 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.Period to : int[],java.lang.String
+17:14:15,258 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.Year to : java.lang.Integer,java.lang.String
+17:14:15,258 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.YearMonth to : int[],java.lang.String,java.util.Date,java.sql.Date
+17:14:15,258 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.ZonedDateTime to : java.sql.Timestamp,java.lang.String
+17:14:15,258 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.ZoneId to : java.lang.String
+17:14:15,258 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.ZoneOffset to : java.lang.String
+17:14:15,258 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.BitSet to : java.lang.String
+17:14:15,258 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Calendar to : java.sql.Timestamp,[Ljava.lang.Object;,java.lang.String,java.util.Date
+17:14:15,259 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Currency to : java.lang.String
+17:14:15,259 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Date to : java.lang.String,java.lang.Long
+17:14:15,259 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Locale to : java.lang.String
+17:14:15,259 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.TimeZone to : java.lang.String
+17:14:15,259 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.UUID to : java.lang.String
+17:14:15,262 (main) DEBUG [DataNucleus.MetaData] - MetaDataManager : Input=(XML,Annotations), XML-Validation=false, XML-Suffices=(persistence=*.jdo, orm=orm, query=*.jdoquery), JDO-listener=false
+17:14:15,263 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.2.1) for API "JDO"
+17:14:15,264 (main) DEBUG [DataNucleus.Enhancer] - DataNucleus Enhancer : Classpath
+17:14:15,264 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\datanucleus\datanucleus-maven-plugin\5.0.0-release\datanucleus-maven-plugin-5.0.0-release.jar
+17:14:15,264 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.8\plexus-utils-3.0.8.jar
+17:14:15,264 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\apache\maven\maven-artifact\3.0.4\maven-artifact-3.0.4.jar
+17:14:15,264 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\apache\maven\maven-plugin-api\3.0.4\maven-plugin-api-3.0.4.jar
+17:14:15,264 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\apache\maven\maven-model\3.0.4\maven-model-3.0.4.jar
+17:14:15,264 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\2.3.0\sisu-inject-plexus-2.3.0.jar
+17:14:15,264 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar
+17:14:15,265 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\sonatype\sisu\sisu-inject-bean\2.3.0\sisu-inject-bean-2.3.0.jar
+17:14:15,265 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar
+17:14:15,265 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\sonatype\sisu\sisu-guava\0.9.9\sisu-guava-0.9.9.jar
+17:14:15,265 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\codehaus\plexus\plexus-container-default\1.5.5\plexus-container-default-1.5.5.jar
+17:14:15,265 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.2\plexus-classworlds-2.2.2.jar
+17:14:15,265 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\apache\xbean\xbean-reflect\3.4\xbean-reflect-3.4.jar
+17:14:15,265 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar
+17:14:15,265 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\commons-logging\commons-logging-api\1.1\commons-logging-api-1.1.jar
+17:14:15,265 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\com\google\collections\google-collections\1.0\google-collections-1.0.jar
+17:14:15,266 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar
+17:14:15,266 (main) DEBUG [DataNucleus.Enhancer] - >>  G:\proJDO\target\classes
+17:14:15,266 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\datanucleus\datanucleus-core\5.2.1\datanucleus-core-5.2.1.jar
+17:14:15,266 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\datanucleus\datanucleus-api-jdo\5.2.1\datanucleus-api-jdo-5.2.1.jar
+17:14:15,266 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\datanucleus\javax.jdo\3.2.0-m12\javax.jdo-3.2.0-m12.jar
+17:14:15,266 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\javax\transaction\transaction-api\1.1\transaction-api-1.1.jar
+17:14:15,266 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+17:14:15,266 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\datanucleus\datanucleus-rdbms\5.2.1\datanucleus-rdbms-5.2.1.jar
+17:14:15,266 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\mysql\mysql-connector-java\5.1.17\mysql-connector-java-5.1.17.jar
+17:14:15,267 (main) DEBUG [DataNucleus.Enhancer] - Enhancing classes
+17:14:15,282 (main) DEBUG [DataNucleus.MetaData] - Parsing MetaData file "file:/G:/proJDO/target/classes/META-INF/persistence.xml" using handler "persistence" (validation="false")
+17:14:15,294 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Loading Metadata for persistence-unit "proJDO" ...
+17:14:15,377 (main) DEBUG [DataNucleus.MetaData] - Class "model.Katalog" has been specified with JDO annotations so using those.
+17:14:15,395 (main) DEBUG [DataNucleus.MetaData] - Class "model.UprawnieniaUz" has been specified with JDO annotations so using those.
+17:14:15,396 (main) DEBUG [DataNucleus.MetaData] - Class "model.Filmy" has been specified with JDO annotations so using those.
+17:14:15,398 (main) DEBUG [DataNucleus.MetaData] - Class "model.Kategorie" has been specified with JDO annotations so using those.
+17:14:15,400 (main) DEBUG [DataNucleus.MetaData] - Class "model.Status" has been specified with JDO annotations so using those.
+17:14:15,401 (main) DEBUG [DataNucleus.MetaData] - Class "model.Role" has been specified with JDO annotations so using those.
+17:14:15,402 (main) DEBUG [DataNucleus.MetaData] - Class "model.Uzytkownicy" has been specified with JDO annotations so using those.
+17:14:15,403 (main) DEBUG [DataNucleus.MetaData] - Populating all MetaData ...
+17:14:15,404 (main) DEBUG [DataNucleus.MetaData] - Class "model.Katalog" : Populating Meta-Data
+17:14:15,404 (main) DEBUG [DataNucleus.MetaData] - Class "model.Katalog" field "idFilm" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:15,405 (main) DEBUG [DataNucleus.MetaData] - Class "model.Katalog" field "idKategoria" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:15,405 (main) DEBUG [DataNucleus.MetaData] - Class "model.Katalog" field "idStatus" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:15,405 (main) DEBUG [DataNucleus.MetaData] - Class "model.Katalog" field "idUzytkownicy" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:15,405 (main) DEBUG [DataNucleus.MetaData] - Class "model.Katalog" field "dataZwrotu" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:15,407 (main) DEBUG [DataNucleus.MetaData] - Class "model.UprawnieniaUz" : Populating Meta-Data
+17:14:15,407 (main) DEBUG [DataNucleus.MetaData] - Class "model.UprawnieniaUz" field "roleId" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:15,407 (main) DEBUG [DataNucleus.MetaData] - Class "model.UprawnieniaUz" field "uzytkownikId" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:15,407 (main) DEBUG [DataNucleus.MetaData] - Class "model.Filmy" : Populating Meta-Data
+17:14:15,407 (main) DEBUG [DataNucleus.MetaData] - Class "model.Filmy" field "tytulFilmu" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:15,408 (main) DEBUG [DataNucleus.MetaData] - Class "model.Filmy" field "rok" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:15,408 (main) DEBUG [DataNucleus.MetaData] - Class "model.Filmy" field "obrazek" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:15,408 (main) DEBUG [DataNucleus.MetaData] - Class "model.Filmy" field "opis" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:15,408 (main) DEBUG [DataNucleus.MetaData] - Class "model.Filmy" field "usuniecie" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:15,408 (main) DEBUG [DataNucleus.MetaData] - Class "model.Filmy" field "rezyser" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:15,408 (main) DEBUG [DataNucleus.MetaData] - Class "model.Kategorie" : Populating Meta-Data
+17:14:15,408 (main) DEBUG [DataNucleus.MetaData] - Class "model.Kategorie" field "nazwaKategorii" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:15,408 (main) DEBUG [DataNucleus.MetaData] - Class "model.Status" : Populating Meta-Data
+17:14:15,408 (main) DEBUG [DataNucleus.MetaData] - Class "model.Status" field "nazwaStatus" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:15,409 (main) DEBUG [DataNucleus.MetaData] - Class "model.Role" : Populating Meta-Data
+17:14:15,409 (main) DEBUG [DataNucleus.MetaData] - Class "model.Role" field "nazwa" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:15,409 (main) DEBUG [DataNucleus.MetaData] - Class "model.Uzytkownicy" : Populating Meta-Data
+17:14:15,409 (main) DEBUG [DataNucleus.MetaData] - Class "model.Uzytkownicy" field "imie" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:15,409 (main) DEBUG [DataNucleus.MetaData] - Class "model.Uzytkownicy" field "nazwisko" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:15,409 (main) DEBUG [DataNucleus.MetaData] - Class "model.Uzytkownicy" field "email" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:15,409 (main) DEBUG [DataNucleus.MetaData] - Class "model.Uzytkownicy" field "haslo" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:15,409 (main) DEBUG [DataNucleus.MetaData] - Class "model.Uzytkownicy" field "kodAktywacyjny" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:15,409 (main) DEBUG [DataNucleus.MetaData] - Class "model.Uzytkownicy" field "usuniecie" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:15,410 (main) DEBUG [DataNucleus.MetaData] - Initialising all MetaData ...
+17:14:15,410 (main) DEBUG [DataNucleus.MetaData] - Class "model.Katalog" : Initialising Meta-Data
+17:14:15,412 (main) DEBUG [DataNucleus.MetaData] - Class "model.UprawnieniaUz" : Initialising Meta-Data
+17:14:15,413 (main) DEBUG [DataNucleus.MetaData] - Class "model.Filmy" : Initialising Meta-Data
+17:14:15,413 (main) DEBUG [DataNucleus.MetaData] - Class "model.Kategorie" : Initialising Meta-Data
+17:14:15,413 (main) DEBUG [DataNucleus.MetaData] - Class "model.Status" : Initialising Meta-Data
+17:14:15,413 (main) DEBUG [DataNucleus.MetaData] - Class "model.Role" : Initialising Meta-Data
+17:14:15,413 (main) DEBUG [DataNucleus.MetaData] - Class "model.Uzytkownicy" : Initialising Meta-Data
+17:14:15,414 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Load of Metadata complete
+17:14:15,422 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Katalog" starting ...
+17:14:15,445 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt implement the interface "org.datanucleus.enhancement.Persistable" but is required
+17:14:15,446 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have field "dnStateManager" but is required
+17:14:15,446 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have field "dnInheritedFieldCount" but is required
+17:14:15,446 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have field "dnFlags" but is required
+17:14:15,448 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have field "dnFieldNames" but is required
+17:14:15,448 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnReplaceField" but is required
+17:14:15,448 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnGetStateManager" but is required
+17:14:15,448 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnIsTransactional" but is required
+17:14:15,448 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnNewInstance" but is required
+17:14:15,448 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnNewInstance" but is required
+17:14:15,448 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnProvideFields" but is required
+17:14:15,448 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "___dn$loadClass" but is required
+17:14:15,448 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnGetManagedFieldCount" but is required
+17:14:15,448 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnIsDirty" but is required
+17:14:15,449 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnReplaceStateManager" but is required
+17:14:15,449 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnReplaceFlags" but is required
+17:14:15,449 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnIsDetached" but is required
+17:14:15,449 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnMakeDirty" but is required
+17:14:15,449 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnIsDeleted" but is required
+17:14:15,449 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnProvideField" but is required
+17:14:15,449 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnPreSerialize" but is required
+17:14:15,449 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnGetObjectId" but is required
+17:14:15,449 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnGetVersion" but is required
+17:14:15,449 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnGetTransactionalObjectId" but is required
+17:14:15,449 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnIsNew" but is required
+17:14:15,449 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:14:15,449 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:14:15,449 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnCopyField" but is required
+17:14:15,449 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:14:15,449 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:14:15,449 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnGetExecutionContext" but is required
+17:14:15,449 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnCopyFields" but is required
+17:14:15,450 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "__dnGetInheritedFieldCount" but is required
+17:14:15,450 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnNewObjectIdInstance" but is required
+17:14:15,450 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnNewObjectIdInstance" but is required
+17:14:15,450 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnIsPersistent" but is required
+17:14:15,450 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "dnReplaceFields" but is required
+17:14:15,450 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Katalog" doesnt have method "__dnFieldNamesInit" but is required
+17:14:15,461 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: org.datanucleus.enhancement.Persistable
+17:14:15,466 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Katalog.<init> : omitting enhance of set of field "model.Katalog.idFilm"
+17:14:15,466 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Katalog.<init> : omitting enhance of set of field "model.Katalog.idKategoria"
+17:14:15,466 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Katalog.<init> : omitting enhance of set of field "model.Katalog.idStatus"
+17:14:15,466 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Katalog.<init> : omitting enhance of set of field "model.Katalog.idUzytkownicy"
+17:14:15,466 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Katalog.<init> : omitting enhance of set of field "model.Katalog.dataZwrotu"
+17:14:15,467 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Katalog.getKatalogId changing field "model.Katalog.katalogId" for call to "dnGetkatalogId()"
+17:14:15,467 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Katalog.setKatalogId changing field "model.Katalog.katalogId" for call to "dnSetkatalogId()"
+17:14:15,467 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Katalog.getIdFilm changing field "model.Katalog.idFilm" for call to "dnGetidFilm()"
+17:14:15,467 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Katalog.setIdFilm changing field "model.Katalog.idFilm" for call to "dnSetidFilm()"
+17:14:15,467 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Katalog.getIdKategoria changing field "model.Katalog.idKategoria" for call to "dnGetidKategoria()"
+17:14:15,468 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Katalog.setIdKategoria changing field "model.Katalog.idKategoria" for call to "dnSetidKategoria()"
+17:14:15,468 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Katalog.getIdStatus changing field "model.Katalog.idStatus" for call to "dnGetidStatus()"
+17:14:15,468 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Katalog.setIdStatus changing field "model.Katalog.idStatus" for call to "dnSetidStatus()"
+17:14:15,468 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Katalog.getIdUzytkownicy changing field "model.Katalog.idUzytkownicy" for call to "dnGetidUzytkownicy()"
+17:14:15,468 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Katalog.setIdUzytkownicy changing field "model.Katalog.idUzytkownicy" for call to "dnSetidUzytkownicy()"
+17:14:15,468 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Katalog.getDataZwrotu changing field "model.Katalog.dataZwrotu" for call to "dnGetdataZwrotu()"
+17:14:15,468 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Katalog.setDataZwrotu changing field "model.Katalog.dataZwrotu" for call to "dnSetdataZwrotu()"
+17:14:15,469 (main) DEBUG [DataNucleus.Enhancer] - Adding field "org.datanucleus.enhancement.StateManager dnStateManager"
+17:14:15,469 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte dnFlags"
+17:14:15,469 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; dnFieldNames"
+17:14:15,469 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int dnInheritedFieldCount"
+17:14:15,470 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+17:14:15,471 (main) DEBUG [DataNucleus.Enhancer] - Adding constructor "model.Katalog()"
+17:14:15,472 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldConsumer fc, java.lang.Object oid)"
+17:14:15,472 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(java.lang.Object oid)"
+17:14:15,472 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(java.lang.Object oid)"
+17:14:15,472 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldSupplier fs, java.lang.Object oid)"
+17:14:15,473 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetObjectId()"
+17:14:15,473 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetVersion()"
+17:14:15,473 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnPreSerialize()"
+17:14:15,474 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.ExecutionContextReference dnGetExecutionContext()"
+17:14:15,474 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.StateManager dnGetStateManager()"
+17:14:15,474 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetTransactionalObjectId()"
+17:14:15,474 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDeleted()"
+17:14:15,474 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDirty()"
+17:14:15,475 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsNew()"
+17:14:15,475 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsPersistent()"
+17:14:15,475 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsTransactional()"
+17:14:15,475 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnMakeDirty(java.lang.String fieldName)"
+17:14:15,475 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance()"
+17:14:15,475 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance(java.lang.Object key)"
+17:14:15,476 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideFields([I indices)"
+17:14:15,476 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFields([I indices)"
+17:14:15,476 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFlags()"
+17:14:15,476 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceStateManager(org.datanucleus.enhancement.StateManager sm)"
+17:14:15,476 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDetached()"
+17:14:15,476 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm)"
+17:14:15,477 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm, java.lang.Object obj)"
+17:14:15,477 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceField(int index)"
+17:14:15,477 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideField(int index)"
+17:14:15,477 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyField(model.Katalog obj, int index)"
+17:14:15,478 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyFields(java.lang.Object obj, [I indices)"
+17:14:15,478 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __dnFieldNamesInit()"
+17:14:15,478 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __dnGetInheritedFieldCount()"
+17:14:15,478 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int dnGetManagedFieldCount()"
+17:14:15,479 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___dn$loadClass(java.lang.String className)"
+17:14:15,480 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.sql.Date dnGetdataZwrotu(model.Katalog objPC)"
+17:14:15,480 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetdataZwrotu(model.Katalog objPC, java.sql.Date val)"
+17:14:15,480 (main) DEBUG [DataNucleus.Enhancer] - Adding method "long dnGetidFilm(model.Katalog objPC)"
+17:14:15,480 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetidFilm(model.Katalog objPC, long val)"
+17:14:15,480 (main) DEBUG [DataNucleus.Enhancer] - Adding method "long dnGetidKategoria(model.Katalog objPC)"
+17:14:15,480 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetidKategoria(model.Katalog objPC, long val)"
+17:14:15,480 (main) DEBUG [DataNucleus.Enhancer] - Adding method "long dnGetidStatus(model.Katalog objPC)"
+17:14:15,481 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetidStatus(model.Katalog objPC, long val)"
+17:14:15,481 (main) DEBUG [DataNucleus.Enhancer] - Adding method "long dnGetidUzytkownicy(model.Katalog objPC)"
+17:14:15,481 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetidUzytkownicy(model.Katalog objPC, long val)"
+17:14:15,481 (main) DEBUG [DataNucleus.Enhancer] - Adding method "long dnGetkatalogId(model.Katalog objPC)"
+17:14:15,481 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetkatalogId(model.Katalog objPC, long val)"
+17:14:15,482 (main) INFO  [DataNucleus.Enhancer] - Writing class file "G:\proJDO\target\classes\model\Katalog.class" with enhanced definition
+17:14:15,547 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Katalog" completed
+17:14:15,547 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.UprawnieniaUz" starting ...
+17:14:15,547 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt implement the interface "org.datanucleus.enhancement.Persistable" but is required
+17:14:15,548 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have field "dnStateManager" but is required
+17:14:15,548 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have field "dnInheritedFieldCount" but is required
+17:14:15,548 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have field "dnFlags" but is required
+17:14:15,548 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have field "dnFieldNames" but is required
+17:14:15,548 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnReplaceField" but is required
+17:14:15,548 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnGetStateManager" but is required
+17:14:15,548 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnIsTransactional" but is required
+17:14:15,548 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnNewInstance" but is required
+17:14:15,548 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnNewInstance" but is required
+17:14:15,548 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnProvideFields" but is required
+17:14:15,548 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "___dn$loadClass" but is required
+17:14:15,548 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnGetManagedFieldCount" but is required
+17:14:15,548 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnIsDirty" but is required
+17:14:15,549 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnReplaceStateManager" but is required
+17:14:15,549 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnReplaceFlags" but is required
+17:14:15,549 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnIsDetached" but is required
+17:14:15,549 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnMakeDirty" but is required
+17:14:15,549 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnIsDeleted" but is required
+17:14:15,549 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnProvideField" but is required
+17:14:15,549 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnPreSerialize" but is required
+17:14:15,549 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnGetObjectId" but is required
+17:14:15,549 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnGetVersion" but is required
+17:14:15,549 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnGetTransactionalObjectId" but is required
+17:14:15,549 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnIsNew" but is required
+17:14:15,549 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:14:15,549 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:14:15,549 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnCopyField" but is required
+17:14:15,549 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:14:15,549 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:14:15,549 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnGetExecutionContext" but is required
+17:14:15,549 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnCopyFields" but is required
+17:14:15,549 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "__dnGetInheritedFieldCount" but is required
+17:14:15,549 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnNewObjectIdInstance" but is required
+17:14:15,550 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnNewObjectIdInstance" but is required
+17:14:15,550 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnIsPersistent" but is required
+17:14:15,550 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "dnReplaceFields" but is required
+17:14:15,550 (main) DEBUG [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" doesnt have method "__dnFieldNamesInit" but is required
+17:14:15,550 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: org.datanucleus.enhancement.Persistable
+17:14:15,550 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.UprawnieniaUz.<init> : omitting enhance of set of field "model.UprawnieniaUz.roleId"
+17:14:15,550 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.UprawnieniaUz.<init> : omitting enhance of set of field "model.UprawnieniaUz.uzytkownikId"
+17:14:15,551 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.UprawnieniaUz.getUprawnieniaUzId changing field "model.UprawnieniaUz.uprawnieniaUzId" for call to "dnGetuprawnieniaUzId()"
+17:14:15,551 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.UprawnieniaUz.setUprawnieniaUzId changing field "model.UprawnieniaUz.uprawnieniaUzId" for call to "dnSetuprawnieniaUzId()"
+17:14:15,551 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.UprawnieniaUz.getRoleId changing field "model.UprawnieniaUz.roleId" for call to "dnGetroleId()"
+17:14:15,551 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.UprawnieniaUz.setRoleId changing field "model.UprawnieniaUz.roleId" for call to "dnSetroleId()"
+17:14:15,551 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.UprawnieniaUz.getUzytkownikId changing field "model.UprawnieniaUz.uzytkownikId" for call to "dnGetuzytkownikId()"
+17:14:15,551 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.UprawnieniaUz.setUzytkownikId changing field "model.UprawnieniaUz.uzytkownikId" for call to "dnSetuzytkownikId()"
+17:14:15,551 (main) DEBUG [DataNucleus.Enhancer] - Adding field "org.datanucleus.enhancement.StateManager dnStateManager"
+17:14:15,551 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte dnFlags"
+17:14:15,552 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; dnFieldNames"
+17:14:15,552 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int dnInheritedFieldCount"
+17:14:15,552 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+17:14:15,552 (main) DEBUG [DataNucleus.Enhancer] - Adding constructor "model.UprawnieniaUz()"
+17:14:15,552 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldConsumer fc, java.lang.Object oid)"
+17:14:15,552 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(java.lang.Object oid)"
+17:14:15,552 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(java.lang.Object oid)"
+17:14:15,552 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldSupplier fs, java.lang.Object oid)"
+17:14:15,553 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetObjectId()"
+17:14:15,553 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetVersion()"
+17:14:15,553 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnPreSerialize()"
+17:14:15,553 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.ExecutionContextReference dnGetExecutionContext()"
+17:14:15,553 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.StateManager dnGetStateManager()"
+17:14:15,553 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetTransactionalObjectId()"
+17:14:15,553 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDeleted()"
+17:14:15,553 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDirty()"
+17:14:15,554 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsNew()"
+17:14:15,554 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsPersistent()"
+17:14:15,554 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsTransactional()"
+17:14:15,554 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnMakeDirty(java.lang.String fieldName)"
+17:14:15,554 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance()"
+17:14:15,554 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance(java.lang.Object key)"
+17:14:15,555 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideFields([I indices)"
+17:14:15,555 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFields([I indices)"
+17:14:15,555 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFlags()"
+17:14:15,555 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceStateManager(org.datanucleus.enhancement.StateManager sm)"
+17:14:15,555 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDetached()"
+17:14:15,555 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm)"
+17:14:15,555 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm, java.lang.Object obj)"
+17:14:15,556 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceField(int index)"
+17:14:15,556 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideField(int index)"
+17:14:15,556 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyField(model.UprawnieniaUz obj, int index)"
+17:14:15,556 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyFields(java.lang.Object obj, [I indices)"
+17:14:15,556 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __dnFieldNamesInit()"
+17:14:15,556 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __dnGetInheritedFieldCount()"
+17:14:15,556 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int dnGetManagedFieldCount()"
+17:14:15,556 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___dn$loadClass(java.lang.String className)"
+17:14:15,556 (main) DEBUG [DataNucleus.Enhancer] - Adding method "long dnGetroleId(model.UprawnieniaUz objPC)"
+17:14:15,556 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetroleId(model.UprawnieniaUz objPC, long val)"
+17:14:15,557 (main) DEBUG [DataNucleus.Enhancer] - Adding method "long dnGetuprawnieniaUzId(model.UprawnieniaUz objPC)"
+17:14:15,557 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetuprawnieniaUzId(model.UprawnieniaUz objPC, long val)"
+17:14:15,557 (main) DEBUG [DataNucleus.Enhancer] - Adding method "long dnGetuzytkownikId(model.UprawnieniaUz objPC)"
+17:14:15,557 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetuzytkownikId(model.UprawnieniaUz objPC, long val)"
+17:14:15,557 (main) INFO  [DataNucleus.Enhancer] - Writing class file "G:\proJDO\target\classes\model\UprawnieniaUz.class" with enhanced definition
+17:14:15,568 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.UprawnieniaUz" completed
+17:14:15,568 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Filmy" starting ...
+17:14:15,569 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt implement the interface "org.datanucleus.enhancement.Persistable" but is required
+17:14:15,569 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have field "dnStateManager" but is required
+17:14:15,569 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have field "dnInheritedFieldCount" but is required
+17:14:15,569 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have field "dnFlags" but is required
+17:14:15,569 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have field "dnFieldNames" but is required
+17:14:15,569 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnReplaceField" but is required
+17:14:15,569 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnGetStateManager" but is required
+17:14:15,569 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnIsTransactional" but is required
+17:14:15,569 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnNewInstance" but is required
+17:14:15,569 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnNewInstance" but is required
+17:14:15,569 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnProvideFields" but is required
+17:14:15,569 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "___dn$loadClass" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnGetManagedFieldCount" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnIsDirty" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnReplaceStateManager" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnReplaceFlags" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnIsDetached" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnMakeDirty" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnIsDeleted" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnProvideField" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnPreSerialize" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnGetObjectId" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnGetVersion" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnGetTransactionalObjectId" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnIsNew" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnCopyField" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnGetExecutionContext" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnCopyFields" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "__dnGetInheritedFieldCount" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnNewObjectIdInstance" but is required
+17:14:15,570 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnNewObjectIdInstance" but is required
+17:14:15,571 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnIsPersistent" but is required
+17:14:15,571 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "dnReplaceFields" but is required
+17:14:15,571 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Filmy" doesnt have method "__dnFieldNamesInit" but is required
+17:14:15,571 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: org.datanucleus.enhancement.Persistable
+17:14:15,571 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Filmy.<init> : omitting enhance of set of field "model.Filmy.tytulFilmu"
+17:14:15,571 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Filmy.<init> : omitting enhance of set of field "model.Filmy.rok"
+17:14:15,571 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Filmy.<init> : omitting enhance of set of field "model.Filmy.obrazek"
+17:14:15,571 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Filmy.<init> : omitting enhance of set of field "model.Filmy.opis"
+17:14:15,572 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Filmy.<init> : omitting enhance of set of field "model.Filmy.usuniecie"
+17:14:15,572 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Filmy.<init> : omitting enhance of set of field "model.Filmy.rezyser"
+17:14:15,572 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Filmy.getFilmyId changing field "model.Filmy.filmyId" for call to "dnGetfilmyId()"
+17:14:15,572 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Filmy.setFilmyId changing field "model.Filmy.filmyId" for call to "dnSetfilmyId()"
+17:14:15,572 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Filmy.getTytulFilmu changing field "model.Filmy.tytulFilmu" for call to "dnGettytulFilmu()"
+17:14:15,572 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Filmy.setTytulFilmu changing field "model.Filmy.tytulFilmu" for call to "dnSettytulFilmu()"
+17:14:15,572 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Filmy.getRok changing field "model.Filmy.rok" for call to "dnGetrok()"
+17:14:15,572 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Filmy.setRok changing field "model.Filmy.rok" for call to "dnSetrok()"
+17:14:15,572 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Filmy.getObrazek changing field "model.Filmy.obrazek" for call to "dnGetobrazek()"
+17:14:15,572 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Filmy.setObrazek changing field "model.Filmy.obrazek" for call to "dnSetobrazek()"
+17:14:15,573 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Filmy.getOpis changing field "model.Filmy.opis" for call to "dnGetopis()"
+17:14:15,573 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Filmy.setOpis changing field "model.Filmy.opis" for call to "dnSetopis()"
+17:14:15,573 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Filmy.getUsuniecie changing field "model.Filmy.usuniecie" for call to "dnGetusuniecie()"
+17:14:15,573 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Filmy.setUsuniecie changing field "model.Filmy.usuniecie" for call to "dnSetusuniecie()"
+17:14:15,573 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Filmy.getRezyser changing field "model.Filmy.rezyser" for call to "dnGetrezyser()"
+17:14:15,573 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Filmy.setRezyser changing field "model.Filmy.rezyser" for call to "dnSetrezyser()"
+17:14:15,573 (main) DEBUG [DataNucleus.Enhancer] - Adding field "org.datanucleus.enhancement.StateManager dnStateManager"
+17:14:15,573 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte dnFlags"
+17:14:15,573 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; dnFieldNames"
+17:14:15,573 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int dnInheritedFieldCount"
+17:14:15,573 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+17:14:15,574 (main) DEBUG [DataNucleus.Enhancer] - Adding constructor "model.Filmy()"
+17:14:15,574 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldConsumer fc, java.lang.Object oid)"
+17:14:15,574 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(java.lang.Object oid)"
+17:14:15,574 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(java.lang.Object oid)"
+17:14:15,574 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldSupplier fs, java.lang.Object oid)"
+17:14:15,574 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetObjectId()"
+17:14:15,574 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetVersion()"
+17:14:15,575 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnPreSerialize()"
+17:14:15,575 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.ExecutionContextReference dnGetExecutionContext()"
+17:14:15,575 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.StateManager dnGetStateManager()"
+17:14:15,575 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetTransactionalObjectId()"
+17:14:15,575 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDeleted()"
+17:14:15,575 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDirty()"
+17:14:15,575 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsNew()"
+17:14:15,575 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsPersistent()"
+17:14:15,575 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsTransactional()"
+17:14:15,575 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnMakeDirty(java.lang.String fieldName)"
+17:14:15,576 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance()"
+17:14:15,576 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance(java.lang.Object key)"
+17:14:15,576 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideFields([I indices)"
+17:14:15,576 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFields([I indices)"
+17:14:15,576 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFlags()"
+17:14:15,576 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceStateManager(org.datanucleus.enhancement.StateManager sm)"
+17:14:15,576 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDetached()"
+17:14:15,576 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm)"
+17:14:15,576 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm, java.lang.Object obj)"
+17:14:15,577 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceField(int index)"
+17:14:15,577 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideField(int index)"
+17:14:15,577 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyField(model.Filmy obj, int index)"
+17:14:15,577 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyFields(java.lang.Object obj, [I indices)"
+17:14:15,577 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __dnFieldNamesInit()"
+17:14:15,577 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __dnGetInheritedFieldCount()"
+17:14:15,577 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int dnGetManagedFieldCount()"
+17:14:15,577 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___dn$loadClass(java.lang.String className)"
+17:14:15,577 (main) DEBUG [DataNucleus.Enhancer] - Adding method "long dnGetfilmyId(model.Filmy objPC)"
+17:14:15,577 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetfilmyId(model.Filmy objPC, long val)"
+17:14:15,578 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetobrazek(model.Filmy objPC)"
+17:14:15,578 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetobrazek(model.Filmy objPC, java.lang.String val)"
+17:14:15,578 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetopis(model.Filmy objPC)"
+17:14:15,578 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetopis(model.Filmy objPC, java.lang.String val)"
+17:14:15,578 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetrezyser(model.Filmy objPC)"
+17:14:15,578 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetrezyser(model.Filmy objPC, java.lang.String val)"
+17:14:15,578 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetrok(model.Filmy objPC)"
+17:14:15,578 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetrok(model.Filmy objPC, java.lang.String val)"
+17:14:15,578 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGettytulFilmu(model.Filmy objPC)"
+17:14:15,578 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSettytulFilmu(model.Filmy objPC, java.lang.String val)"
+17:14:15,578 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetusuniecie(model.Filmy objPC)"
+17:14:15,579 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetusuniecie(model.Filmy objPC, java.lang.String val)"
+17:14:15,579 (main) INFO  [DataNucleus.Enhancer] - Writing class file "G:\proJDO\target\classes\model\Filmy.class" with enhanced definition
+17:14:15,588 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Filmy" completed
+17:14:15,588 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Kategorie" starting ...
+17:14:15,588 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt implement the interface "org.datanucleus.enhancement.Persistable" but is required
+17:14:15,588 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have field "dnStateManager" but is required
+17:14:15,588 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have field "dnInheritedFieldCount" but is required
+17:14:15,588 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have field "dnFlags" but is required
+17:14:15,588 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have field "dnFieldNames" but is required
+17:14:15,588 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnReplaceField" but is required
+17:14:15,588 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnGetStateManager" but is required
+17:14:15,588 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnIsTransactional" but is required
+17:14:15,589 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnNewInstance" but is required
+17:14:15,589 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnNewInstance" but is required
+17:14:15,589 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnProvideFields" but is required
+17:14:15,589 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "___dn$loadClass" but is required
+17:14:15,589 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnGetManagedFieldCount" but is required
+17:14:15,589 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnIsDirty" but is required
+17:14:15,589 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnReplaceStateManager" but is required
+17:14:15,589 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnReplaceFlags" but is required
+17:14:15,589 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnIsDetached" but is required
+17:14:15,589 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnMakeDirty" but is required
+17:14:15,589 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnIsDeleted" but is required
+17:14:15,589 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnProvideField" but is required
+17:14:15,589 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnPreSerialize" but is required
+17:14:15,589 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnGetObjectId" but is required
+17:14:15,589 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnGetVersion" but is required
+17:14:15,589 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnGetTransactionalObjectId" but is required
+17:14:15,589 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnIsNew" but is required
+17:14:15,589 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:14:15,589 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:14:15,590 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnCopyField" but is required
+17:14:15,590 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:14:15,590 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:14:15,590 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnGetExecutionContext" but is required
+17:14:15,590 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnCopyFields" but is required
+17:14:15,590 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "__dnGetInheritedFieldCount" but is required
+17:14:15,590 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnNewObjectIdInstance" but is required
+17:14:15,590 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnNewObjectIdInstance" but is required
+17:14:15,590 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnIsPersistent" but is required
+17:14:15,590 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "dnReplaceFields" but is required
+17:14:15,590 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Kategorie" doesnt have method "__dnFieldNamesInit" but is required
+17:14:15,591 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: org.datanucleus.enhancement.Persistable
+17:14:15,591 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Kategorie.<init> : omitting enhance of set of field "model.Kategorie.nazwaKategorii"
+17:14:15,591 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Kategorie.getKategorieId changing field "model.Kategorie.kategorieId" for call to "dnGetkategorieId()"
+17:14:15,591 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Kategorie.setKategorieId changing field "model.Kategorie.kategorieId" for call to "dnSetkategorieId()"
+17:14:15,591 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Kategorie.getNazwaKategorii changing field "model.Kategorie.nazwaKategorii" for call to "dnGetnazwaKategorii()"
+17:14:15,591 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Kategorie.setNazwaKategorii changing field "model.Kategorie.nazwaKategorii" for call to "dnSetnazwaKategorii()"
+17:14:15,591 (main) DEBUG [DataNucleus.Enhancer] - Adding field "org.datanucleus.enhancement.StateManager dnStateManager"
+17:14:15,591 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte dnFlags"
+17:14:15,591 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; dnFieldNames"
+17:14:15,591 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int dnInheritedFieldCount"
+17:14:15,592 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+17:14:15,592 (main) DEBUG [DataNucleus.Enhancer] - Adding constructor "model.Kategorie()"
+17:14:15,592 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldConsumer fc, java.lang.Object oid)"
+17:14:15,592 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(java.lang.Object oid)"
+17:14:15,592 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(java.lang.Object oid)"
+17:14:15,592 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldSupplier fs, java.lang.Object oid)"
+17:14:15,592 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetObjectId()"
+17:14:15,593 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetVersion()"
+17:14:15,593 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnPreSerialize()"
+17:14:15,593 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.ExecutionContextReference dnGetExecutionContext()"
+17:14:15,593 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.StateManager dnGetStateManager()"
+17:14:15,593 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetTransactionalObjectId()"
+17:14:15,593 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDeleted()"
+17:14:15,593 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDirty()"
+17:14:15,593 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsNew()"
+17:14:15,593 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsPersistent()"
+17:14:15,593 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsTransactional()"
+17:14:15,593 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnMakeDirty(java.lang.String fieldName)"
+17:14:15,593 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance()"
+17:14:15,593 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance(java.lang.Object key)"
+17:14:15,593 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideFields([I indices)"
+17:14:15,594 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFields([I indices)"
+17:14:15,594 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFlags()"
+17:14:15,594 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceStateManager(org.datanucleus.enhancement.StateManager sm)"
+17:14:15,594 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDetached()"
+17:14:15,594 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm)"
+17:14:15,594 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm, java.lang.Object obj)"
+17:14:15,594 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceField(int index)"
+17:14:15,594 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideField(int index)"
+17:14:15,594 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyField(model.Kategorie obj, int index)"
+17:14:15,594 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyFields(java.lang.Object obj, [I indices)"
+17:14:15,594 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __dnFieldNamesInit()"
+17:14:15,595 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __dnGetInheritedFieldCount()"
+17:14:15,595 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int dnGetManagedFieldCount()"
+17:14:15,595 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___dn$loadClass(java.lang.String className)"
+17:14:15,595 (main) DEBUG [DataNucleus.Enhancer] - Adding method "long dnGetkategorieId(model.Kategorie objPC)"
+17:14:15,595 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetkategorieId(model.Kategorie objPC, long val)"
+17:14:15,595 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetnazwaKategorii(model.Kategorie objPC)"
+17:14:15,595 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetnazwaKategorii(model.Kategorie objPC, java.lang.String val)"
+17:14:15,595 (main) INFO  [DataNucleus.Enhancer] - Writing class file "G:\proJDO\target\classes\model\Kategorie.class" with enhanced definition
+17:14:15,606 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Kategorie" completed
+17:14:15,607 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Status" starting ...
+17:14:15,607 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt implement the interface "org.datanucleus.enhancement.Persistable" but is required
+17:14:15,607 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have field "dnStateManager" but is required
+17:14:15,607 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have field "dnInheritedFieldCount" but is required
+17:14:15,607 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have field "dnFlags" but is required
+17:14:15,607 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have field "dnFieldNames" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnReplaceField" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnGetStateManager" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnIsTransactional" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnNewInstance" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnNewInstance" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnProvideFields" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "___dn$loadClass" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnGetManagedFieldCount" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnIsDirty" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnReplaceStateManager" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnReplaceFlags" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnIsDetached" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnMakeDirty" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnIsDeleted" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnProvideField" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnPreSerialize" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnGetObjectId" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnGetVersion" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnGetTransactionalObjectId" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnIsNew" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnCopyField" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnGetExecutionContext" but is required
+17:14:15,608 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnCopyFields" but is required
+17:14:15,609 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "__dnGetInheritedFieldCount" but is required
+17:14:15,609 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnNewObjectIdInstance" but is required
+17:14:15,609 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnNewObjectIdInstance" but is required
+17:14:15,609 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnIsPersistent" but is required
+17:14:15,609 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "dnReplaceFields" but is required
+17:14:15,609 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Status" doesnt have method "__dnFieldNamesInit" but is required
+17:14:15,609 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: org.datanucleus.enhancement.Persistable
+17:14:15,609 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Status.<init> : omitting enhance of set of field "model.Status.nazwaStatus"
+17:14:15,609 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Status.getStatusId changing field "model.Status.statusId" for call to "dnGetstatusId()"
+17:14:15,609 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Status.setStatusId changing field "model.Status.statusId" for call to "dnSetstatusId()"
+17:14:15,610 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Status.getNazwaStatus changing field "model.Status.nazwaStatus" for call to "dnGetnazwaStatus()"
+17:14:15,610 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Status.setNazwaStatus changing field "model.Status.nazwaStatus" for call to "dnSetnazwaStatus()"
+17:14:15,610 (main) DEBUG [DataNucleus.Enhancer] - Adding field "org.datanucleus.enhancement.StateManager dnStateManager"
+17:14:15,610 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte dnFlags"
+17:14:15,610 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; dnFieldNames"
+17:14:15,610 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int dnInheritedFieldCount"
+17:14:15,610 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+17:14:15,610 (main) DEBUG [DataNucleus.Enhancer] - Adding constructor "model.Status()"
+17:14:15,610 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldConsumer fc, java.lang.Object oid)"
+17:14:15,611 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(java.lang.Object oid)"
+17:14:15,611 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(java.lang.Object oid)"
+17:14:15,611 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldSupplier fs, java.lang.Object oid)"
+17:14:15,611 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetObjectId()"
+17:14:15,611 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetVersion()"
+17:14:15,611 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnPreSerialize()"
+17:14:15,611 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.ExecutionContextReference dnGetExecutionContext()"
+17:14:15,611 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.StateManager dnGetStateManager()"
+17:14:15,611 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetTransactionalObjectId()"
+17:14:15,612 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDeleted()"
+17:14:15,612 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDirty()"
+17:14:15,612 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsNew()"
+17:14:15,612 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsPersistent()"
+17:14:15,612 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsTransactional()"
+17:14:15,612 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnMakeDirty(java.lang.String fieldName)"
+17:14:15,612 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance()"
+17:14:15,612 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance(java.lang.Object key)"
+17:14:15,612 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideFields([I indices)"
+17:14:15,613 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFields([I indices)"
+17:14:15,613 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFlags()"
+17:14:15,613 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceStateManager(org.datanucleus.enhancement.StateManager sm)"
+17:14:15,613 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDetached()"
+17:14:15,613 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm)"
+17:14:15,613 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm, java.lang.Object obj)"
+17:14:15,613 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceField(int index)"
+17:14:15,613 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideField(int index)"
+17:14:15,614 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyField(model.Status obj, int index)"
+17:14:15,614 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyFields(java.lang.Object obj, [I indices)"
+17:14:15,614 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __dnFieldNamesInit()"
+17:14:15,614 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __dnGetInheritedFieldCount()"
+17:14:15,614 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int dnGetManagedFieldCount()"
+17:14:15,614 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___dn$loadClass(java.lang.String className)"
+17:14:15,614 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetnazwaStatus(model.Status objPC)"
+17:14:15,614 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetnazwaStatus(model.Status objPC, java.lang.String val)"
+17:14:15,614 (main) DEBUG [DataNucleus.Enhancer] - Adding method "long dnGetstatusId(model.Status objPC)"
+17:14:15,614 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetstatusId(model.Status objPC, long val)"
+17:14:15,615 (main) INFO  [DataNucleus.Enhancer] - Writing class file "G:\proJDO\target\classes\model\Status.class" with enhanced definition
+17:14:15,625 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Status" completed
+17:14:15,625 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Role" starting ...
+17:14:15,625 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt implement the interface "org.datanucleus.enhancement.Persistable" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have field "dnStateManager" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have field "dnInheritedFieldCount" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have field "dnFlags" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have field "dnFieldNames" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnReplaceField" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnGetStateManager" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnIsTransactional" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnNewInstance" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnNewInstance" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnProvideFields" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "___dn$loadClass" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnGetManagedFieldCount" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnIsDirty" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnReplaceStateManager" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnReplaceFlags" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnIsDetached" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnMakeDirty" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnIsDeleted" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnProvideField" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnPreSerialize" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnGetObjectId" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnGetVersion" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnGetTransactionalObjectId" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnIsNew" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnCopyField" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnGetExecutionContext" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnCopyFields" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "__dnGetInheritedFieldCount" but is required
+17:14:15,626 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnNewObjectIdInstance" but is required
+17:14:15,627 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnNewObjectIdInstance" but is required
+17:14:15,627 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnIsPersistent" but is required
+17:14:15,627 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "dnReplaceFields" but is required
+17:14:15,627 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Role" doesnt have method "__dnFieldNamesInit" but is required
+17:14:15,627 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: org.datanucleus.enhancement.Persistable
+17:14:15,627 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Role.<init> : omitting enhance of set of field "model.Role.nazwa"
+17:14:15,627 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Role.getRoleId changing field "model.Role.roleId" for call to "dnGetroleId()"
+17:14:15,627 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Role.setRoleId changing field "model.Role.roleId" for call to "dnSetroleId()"
+17:14:15,628 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Role.getNazwa changing field "model.Role.nazwa" for call to "dnGetnazwa()"
+17:14:15,628 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Role.setNazwa changing field "model.Role.nazwa" for call to "dnSetnazwa()"
+17:14:15,628 (main) DEBUG [DataNucleus.Enhancer] - Adding field "org.datanucleus.enhancement.StateManager dnStateManager"
+17:14:15,628 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte dnFlags"
+17:14:15,628 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; dnFieldNames"
+17:14:15,628 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int dnInheritedFieldCount"
+17:14:15,628 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+17:14:15,628 (main) DEBUG [DataNucleus.Enhancer] - Adding constructor "model.Role()"
+17:14:15,628 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldConsumer fc, java.lang.Object oid)"
+17:14:15,628 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(java.lang.Object oid)"
+17:14:15,628 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(java.lang.Object oid)"
+17:14:15,628 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldSupplier fs, java.lang.Object oid)"
+17:14:15,628 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetObjectId()"
+17:14:15,628 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetVersion()"
+17:14:15,628 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnPreSerialize()"
+17:14:15,628 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.ExecutionContextReference dnGetExecutionContext()"
+17:14:15,628 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.StateManager dnGetStateManager()"
+17:14:15,628 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetTransactionalObjectId()"
+17:14:15,628 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDeleted()"
+17:14:15,629 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDirty()"
+17:14:15,629 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsNew()"
+17:14:15,629 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsPersistent()"
+17:14:15,629 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsTransactional()"
+17:14:15,629 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnMakeDirty(java.lang.String fieldName)"
+17:14:15,629 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance()"
+17:14:15,629 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance(java.lang.Object key)"
+17:14:15,629 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideFields([I indices)"
+17:14:15,629 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFields([I indices)"
+17:14:15,629 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFlags()"
+17:14:15,629 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceStateManager(org.datanucleus.enhancement.StateManager sm)"
+17:14:15,629 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDetached()"
+17:14:15,629 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm)"
+17:14:15,629 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm, java.lang.Object obj)"
+17:14:15,629 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceField(int index)"
+17:14:15,629 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideField(int index)"
+17:14:15,629 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyField(model.Role obj, int index)"
+17:14:15,630 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyFields(java.lang.Object obj, [I indices)"
+17:14:15,630 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __dnFieldNamesInit()"
+17:14:15,630 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __dnGetInheritedFieldCount()"
+17:14:15,630 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int dnGetManagedFieldCount()"
+17:14:15,630 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___dn$loadClass(java.lang.String className)"
+17:14:15,630 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetnazwa(model.Role objPC)"
+17:14:15,630 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetnazwa(model.Role objPC, java.lang.String val)"
+17:14:15,630 (main) DEBUG [DataNucleus.Enhancer] - Adding method "long dnGetroleId(model.Role objPC)"
+17:14:15,630 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetroleId(model.Role objPC, long val)"
+17:14:15,630 (main) INFO  [DataNucleus.Enhancer] - Writing class file "G:\proJDO\target\classes\model\Role.class" with enhanced definition
+17:14:15,638 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Role" completed
+17:14:15,638 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Uzytkownicy" starting ...
+17:14:15,638 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt implement the interface "org.datanucleus.enhancement.Persistable" but is required
+17:14:15,638 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have field "dnStateManager" but is required
+17:14:15,638 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have field "dnInheritedFieldCount" but is required
+17:14:15,638 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have field "dnFlags" but is required
+17:14:15,638 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have field "dnFieldNames" but is required
+17:14:15,638 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnReplaceField" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnGetStateManager" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnIsTransactional" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnNewInstance" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnNewInstance" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnProvideFields" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "___dn$loadClass" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnGetManagedFieldCount" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnIsDirty" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnReplaceStateManager" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnReplaceFlags" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnIsDetached" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnMakeDirty" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnIsDeleted" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnProvideField" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnPreSerialize" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnGetObjectId" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnGetVersion" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnGetTransactionalObjectId" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnIsNew" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnCopyField" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnGetExecutionContext" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnCopyFields" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "__dnGetInheritedFieldCount" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnNewObjectIdInstance" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnNewObjectIdInstance" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnIsPersistent" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "dnReplaceFields" but is required
+17:14:15,639 (main) DEBUG [DataNucleus.Enhancer] - Class "model.Uzytkownicy" doesnt have method "__dnFieldNamesInit" but is required
+17:14:15,640 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: org.datanucleus.enhancement.Persistable
+17:14:15,640 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Uzytkownicy.<init> : omitting enhance of set of field "model.Uzytkownicy.imie"
+17:14:15,640 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Uzytkownicy.<init> : omitting enhance of set of field "model.Uzytkownicy.nazwisko"
+17:14:15,640 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Uzytkownicy.<init> : omitting enhance of set of field "model.Uzytkownicy.email"
+17:14:15,640 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Uzytkownicy.<init> : omitting enhance of set of field "model.Uzytkownicy.haslo"
+17:14:15,640 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Uzytkownicy.<init> : omitting enhance of set of field "model.Uzytkownicy.kodAktywacyjny"
+17:14:15,640 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Uzytkownicy.<init> : omitting enhance of set of field "model.Uzytkownicy.usuniecie"
+17:14:15,640 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Uzytkownicy.getId changing field "model.Uzytkownicy.id" for call to "dnGetid()"
+17:14:15,640 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Uzytkownicy.setId changing field "model.Uzytkownicy.id" for call to "dnSetid()"
+17:14:15,640 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Uzytkownicy.getImie changing field "model.Uzytkownicy.imie" for call to "dnGetimie()"
+17:14:15,640 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Uzytkownicy.setImie changing field "model.Uzytkownicy.imie" for call to "dnSetimie()"
+17:14:15,640 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Uzytkownicy.getNazwisko changing field "model.Uzytkownicy.nazwisko" for call to "dnGetnazwisko()"
+17:14:15,640 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Uzytkownicy.setNazwisko changing field "model.Uzytkownicy.nazwisko" for call to "dnSetnazwisko()"
+17:14:15,640 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Uzytkownicy.getEmail changing field "model.Uzytkownicy.email" for call to "dnGetemail()"
+17:14:15,640 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Uzytkownicy.setEmail changing field "model.Uzytkownicy.email" for call to "dnSetemail()"
+17:14:15,641 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Uzytkownicy.getHaslo changing field "model.Uzytkownicy.haslo" for call to "dnGethaslo()"
+17:14:15,641 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Uzytkownicy.setHaslo changing field "model.Uzytkownicy.haslo" for call to "dnSethaslo()"
+17:14:15,641 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Uzytkownicy.getKodAktywacyjny changing field "model.Uzytkownicy.kodAktywacyjny" for call to "dnGetkodAktywacyjny()"
+17:14:15,641 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Uzytkownicy.setKodAktywacyjny changing field "model.Uzytkownicy.kodAktywacyjny" for call to "dnSetkodAktywacyjny()"
+17:14:15,641 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Uzytkownicy.getUsuniecie changing field "model.Uzytkownicy.usuniecie" for call to "dnGetusuniecie()"
+17:14:15,641 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method model.Uzytkownicy.setUsuniecie changing field "model.Uzytkownicy.usuniecie" for call to "dnSetusuniecie()"
+17:14:15,641 (main) DEBUG [DataNucleus.Enhancer] - Adding field "org.datanucleus.enhancement.StateManager dnStateManager"
+17:14:15,641 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte dnFlags"
+17:14:15,641 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; dnFieldNames"
+17:14:15,641 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int dnInheritedFieldCount"
+17:14:15,641 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+17:14:15,641 (main) DEBUG [DataNucleus.Enhancer] - Adding constructor "model.Uzytkownicy()"
+17:14:15,641 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldConsumer fc, java.lang.Object oid)"
+17:14:15,641 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(java.lang.Object oid)"
+17:14:15,641 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(java.lang.Object oid)"
+17:14:15,641 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldSupplier fs, java.lang.Object oid)"
+17:14:15,641 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetObjectId()"
+17:14:15,642 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetVersion()"
+17:14:15,642 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnPreSerialize()"
+17:14:15,642 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.ExecutionContextReference dnGetExecutionContext()"
+17:14:15,642 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.StateManager dnGetStateManager()"
+17:14:15,642 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetTransactionalObjectId()"
+17:14:15,642 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDeleted()"
+17:14:15,642 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDirty()"
+17:14:15,642 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsNew()"
+17:14:15,642 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsPersistent()"
+17:14:15,642 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsTransactional()"
+17:14:15,642 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnMakeDirty(java.lang.String fieldName)"
+17:14:15,642 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance()"
+17:14:15,642 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance(java.lang.Object key)"
+17:14:15,642 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideFields([I indices)"
+17:14:15,642 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFields([I indices)"
+17:14:15,642 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFlags()"
+17:14:15,642 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceStateManager(org.datanucleus.enhancement.StateManager sm)"
+17:14:15,643 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDetached()"
+17:14:15,643 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm)"
+17:14:15,643 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm, java.lang.Object obj)"
+17:14:15,643 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceField(int index)"
+17:14:15,643 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideField(int index)"
+17:14:15,643 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyField(model.Uzytkownicy obj, int index)"
+17:14:15,643 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyFields(java.lang.Object obj, [I indices)"
+17:14:15,643 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __dnFieldNamesInit()"
+17:14:15,643 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __dnGetInheritedFieldCount()"
+17:14:15,643 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int dnGetManagedFieldCount()"
+17:14:15,643 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___dn$loadClass(java.lang.String className)"
+17:14:15,643 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetemail(model.Uzytkownicy objPC)"
+17:14:15,643 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetemail(model.Uzytkownicy objPC, java.lang.String val)"
+17:14:15,643 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGethaslo(model.Uzytkownicy objPC)"
+17:14:15,643 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSethaslo(model.Uzytkownicy objPC, java.lang.String val)"
+17:14:15,644 (main) DEBUG [DataNucleus.Enhancer] - Adding method "long dnGetid(model.Uzytkownicy objPC)"
+17:14:15,644 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetid(model.Uzytkownicy objPC, long val)"
+17:14:15,644 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetimie(model.Uzytkownicy objPC)"
+17:14:15,644 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetimie(model.Uzytkownicy objPC, java.lang.String val)"
+17:14:15,644 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetkodAktywacyjny(model.Uzytkownicy objPC)"
+17:14:15,644 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetkodAktywacyjny(model.Uzytkownicy objPC, java.lang.String val)"
+17:14:15,644 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetnazwisko(model.Uzytkownicy objPC)"
+17:14:15,644 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetnazwisko(model.Uzytkownicy objPC, java.lang.String val)"
+17:14:15,644 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetusuniecie(model.Uzytkownicy objPC)"
+17:14:15,644 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetusuniecie(model.Uzytkownicy objPC, java.lang.String val)"
+17:14:15,644 (main) INFO  [DataNucleus.Enhancer] - Writing class file "G:\proJDO\target\classes\model\Uzytkownicy.class" with enhanced definition
+17:14:15,651 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Uzytkownicy" completed
+17:14:15,651 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 7 classes.
+17:14:50,815 (main) DEBUG [DataNucleus.General] - Using PluginRegistry org.datanucleus.plugin.NonManagedPluginRegistry
+17:14:50,849 (main) DEBUG [DataNucleus.General] - Registering bundle org.sonatype.inject version 2.3.0 at URL file:/C:/Users/cotam/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar.
+17:14:50,891 (main) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/cotam/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+17:14:50,902 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus version 5.2.1 at URL file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-core/5.2.1/datanucleus-core-5.2.1.jar.
+17:14:50,907 (main) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-core/5.2.1/datanucleus-core-5.2.1.jar!/plugin.xml.
+17:14:50,921 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.api.jdo version 5.2.1 at URL file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.2.1/datanucleus-api-jdo-5.2.1.jar.
+17:14:50,936 (main) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.2.1/datanucleus-api-jdo-5.2.1.jar!/plugin.xml.
+17:14:50,950 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.store.rdbms version 5.2.1 at URL file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-rdbms/5.2.1/datanucleus-rdbms-5.2.1.jar.
+17:14:50,957 (main) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-rdbms/5.2.1/datanucleus-rdbms-5.2.1.jar!/plugin.xml.
+17:14:51,034 (main) DEBUG [DataNucleus.Persistence] - Java types support initialising ...
+17:14:51,129 (main) DEBUG [DataNucleus.Persistence] - Java types support loaded : supported java types=[B, [C, [D, [F, [I, [J, [Ljava.lang.Boolean;, [Ljava.lang.Byte;, [Ljava.lang.Character;, [Ljava.lang.Double;, [Ljava.lang.Enum;, [Ljava.lang.Float;, [Ljava.lang.Integer;, [Ljava.lang.Long;, [Ljava.lang.Number;, [Ljava.lang.Object;, [Ljava.lang.Short;, [Ljava.lang.String;, [Ljava.math.BigDecimal;, [Ljava.math.BigInteger;, [Ljava.util.Date;, [Ljava.util.Locale;, [S, [Z, boolean, byte, char, double, float, int, java.awt.Color, java.awt.image.BufferedImage, java.lang.Boolean, java.lang.Byte, java.lang.Character, java.lang.Class, java.lang.Double, java.lang.Enum, java.lang.Float, java.lang.Integer, java.lang.Long, java.lang.Number, java.lang.Short, java.lang.String, java.lang.StringBuffer, java.lang.StringBuilder, java.math.BigDecimal, java.math.BigInteger, java.net.URI, java.net.URL, java.sql.Date, java.sql.Time, java.sql.Timestamp, java.time.Duration, java.time.Instant, java.time.LocalDate, java.time.LocalDateTime, java.time.LocalTime, java.time.MonthDay, java.time.OffsetDateTime, java.time.OffsetTime, java.time.Period, java.time.Year, java.time.YearMonth, java.time.ZonedDateTime, java.time.ZoneId, java.time.ZoneOffset, java.util.ArrayList, java.util.Arrays$ArrayList, java.util.BitSet, java.util.Calendar, java.util.Collection, java.util.Currency, java.util.Date, java.util.GregorianCalendar, java.util.HashMap, java.util.HashSet, java.util.Hashtable, java.util.LinkedHashMap, java.util.LinkedHashSet, java.util.LinkedList, java.util.List, java.util.Locale, java.util.Map, java.util.Optional, java.util.PriorityQueue, java.util.Properties, java.util.Queue, java.util.Set, java.util.SortedMap, java.util.SortedSet, java.util.Stack, java.util.TimeZone, java.util.TreeMap, java.util.TreeSet, java.util.UUID, java.util.Vector, long, short
+17:14:51,129 (main) DEBUG [DataNucleus.Persistence] - Type converter support initialising ...
+17:14:51,205 (main) DEBUG [DataNucleus.Persistence] - Type converter support loaded
+17:14:51,206 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for byte[] to : java.nio.ByteBuffer
+17:14:51,206 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for char[] to : java.nio.ByteBuffer
+17:14:51,206 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for double[] to : java.nio.ByteBuffer
+17:14:51,206 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for float[] to : java.nio.ByteBuffer
+17:14:51,207 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for int[] to : java.nio.ByteBuffer
+17:14:51,207 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for long[] to : java.nio.ByteBuffer
+17:14:51,207 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for [Ljava.math.BigDecimal; to : java.nio.ByteBuffer
+17:14:51,207 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for [Ljava.math.BigInteger; to : java.nio.ByteBuffer
+17:14:51,207 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for short[] to : java.nio.ByteBuffer
+17:14:51,207 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for boolean[] to : java.nio.ByteBuffer
+17:14:51,207 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.awt.Color to : int[],java.lang.String
+17:14:51,207 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.awt.image.BufferedImage to : java.nio.ByteBuffer,byte[]
+17:14:51,208 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.io.Serializable to : java.nio.ByteBuffer,byte[],java.lang.String
+17:14:51,208 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Boolean to : java.lang.Integer,java.lang.Character
+17:14:51,208 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Character to : java.lang.String
+17:14:51,208 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Class to : java.lang.String
+17:14:51,208 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Integer to : java.lang.String
+17:14:51,208 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Long to : java.lang.String
+17:14:51,208 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.StringBuffer to : java.lang.String
+17:14:51,208 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.StringBuilder to : java.lang.String
+17:14:51,208 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.math.BigDecimal to : java.lang.String,java.lang.Double
+17:14:51,208 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.math.BigInteger to : java.lang.String,java.lang.Long
+17:14:51,210 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.net.URI to : java.lang.String
+17:14:51,211 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.net.URL to : java.lang.String
+17:14:51,211 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.sql.Date to : java.lang.String,java.lang.Long,java.util.Date
+17:14:51,211 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.sql.Time to : java.lang.String,java.lang.Long,java.util.Date
+17:14:51,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.sql.Timestamp to : java.lang.String,java.lang.Long,java.util.Date
+17:14:51,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.Duration to : java.lang.String,java.lang.Double,java.lang.Long
+17:14:51,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.Instant to : java.sql.Timestamp,java.lang.String,java.util.Date,java.lang.Long
+17:14:51,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.LocalDate to : java.lang.String,java.util.Date,java.sql.Date
+17:14:51,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.LocalDateTime to : java.sql.Timestamp,java.lang.String,java.util.Date
+17:14:51,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.LocalTime to : java.sql.Time,java.lang.String,java.util.Date,java.lang.Long
+17:14:51,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.MonthDay to : int[],java.lang.String,java.util.Date,java.sql.Date
+17:14:51,213 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.OffsetDateTime to : java.sql.Timestamp,java.lang.String,java.util.Date
+17:14:51,213 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.OffsetTime to : java.sql.Time,java.lang.String,java.lang.Long
+17:14:51,213 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.Period to : int[],java.lang.String
+17:14:51,213 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.Year to : java.lang.Integer,java.lang.String
+17:14:51,214 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.YearMonth to : int[],java.lang.String,java.util.Date,java.sql.Date
+17:14:51,214 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.ZonedDateTime to : java.sql.Timestamp,java.lang.String
+17:14:51,215 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.ZoneId to : java.lang.String
+17:14:51,215 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.ZoneOffset to : java.lang.String
+17:14:51,217 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.BitSet to : java.lang.String
+17:14:51,217 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Calendar to : java.sql.Timestamp,[Ljava.lang.Object;,java.lang.String,java.util.Date
+17:14:51,217 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Currency to : java.lang.String
+17:14:51,217 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Date to : java.lang.String,java.lang.Long
+17:14:51,217 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Locale to : java.lang.String
+17:14:51,217 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.TimeZone to : java.lang.String
+17:14:51,218 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.UUID to : java.lang.String
+17:14:51,222 (main) DEBUG [DataNucleus.MetaData] - MetaDataManager : Input=(XML,Annotations), XML-Validation=false, XML-Suffices=(persistence=*.jdo, orm=orm, query=*.jdoquery), JDO-listener=false
+17:14:51,222 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.2.1) for API "JDO"
+17:14:51,222 (main) DEBUG [DataNucleus.Enhancer] - DataNucleus Enhancer : Classpath
+17:14:51,223 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\datanucleus\datanucleus-maven-plugin\5.0.0-release\datanucleus-maven-plugin-5.0.0-release.jar
+17:14:51,223 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.8\plexus-utils-3.0.8.jar
+17:14:51,223 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\apache\maven\maven-artifact\3.0.4\maven-artifact-3.0.4.jar
+17:14:51,223 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\apache\maven\maven-plugin-api\3.0.4\maven-plugin-api-3.0.4.jar
+17:14:51,223 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\apache\maven\maven-model\3.0.4\maven-model-3.0.4.jar
+17:14:51,223 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\2.3.0\sisu-inject-plexus-2.3.0.jar
+17:14:51,223 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar
+17:14:51,223 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\sonatype\sisu\sisu-inject-bean\2.3.0\sisu-inject-bean-2.3.0.jar
+17:14:51,223 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar
+17:14:51,224 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\sonatype\sisu\sisu-guava\0.9.9\sisu-guava-0.9.9.jar
+17:14:51,224 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\codehaus\plexus\plexus-container-default\1.5.5\plexus-container-default-1.5.5.jar
+17:14:51,224 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.2\plexus-classworlds-2.2.2.jar
+17:14:51,224 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\apache\xbean\xbean-reflect\3.4\xbean-reflect-3.4.jar
+17:14:51,224 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar
+17:14:51,224 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\commons-logging\commons-logging-api\1.1\commons-logging-api-1.1.jar
+17:14:51,224 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\com\google\collections\google-collections\1.0\google-collections-1.0.jar
+17:14:51,224 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar
+17:14:51,224 (main) DEBUG [DataNucleus.Enhancer] - >>  G:\proJDO\target\classes
+17:14:51,224 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\datanucleus\datanucleus-core\5.2.1\datanucleus-core-5.2.1.jar
+17:14:51,224 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\datanucleus\datanucleus-api-jdo\5.2.1\datanucleus-api-jdo-5.2.1.jar
+17:14:51,224 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\datanucleus\javax.jdo\3.2.0-m12\javax.jdo-3.2.0-m12.jar
+17:14:51,224 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\javax\transaction\transaction-api\1.1\transaction-api-1.1.jar
+17:14:51,224 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+17:14:51,224 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\org\datanucleus\datanucleus-rdbms\5.2.1\datanucleus-rdbms-5.2.1.jar
+17:14:51,224 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\cotam\.m2\repository\mysql\mysql-connector-java\5.1.17\mysql-connector-java-5.1.17.jar
+17:14:51,225 (main) DEBUG [DataNucleus.Enhancer] - Enhancing classes
+17:14:51,237 (main) DEBUG [DataNucleus.MetaData] - Parsing MetaData file "file:/G:/proJDO/target/classes/META-INF/persistence.xml" using handler "persistence" (validation="false")
+17:14:51,250 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Loading Metadata for persistence-unit "proJDO" ...
+17:14:51,334 (main) DEBUG [DataNucleus.MetaData] - Class "model.Katalog" has been specified with JDO annotations so using those.
+17:14:51,362 (main) DEBUG [DataNucleus.MetaData] - Class "model.UprawnieniaUz" has been specified with JDO annotations so using those.
+17:14:51,364 (main) DEBUG [DataNucleus.MetaData] - Class "model.Filmy" has been specified with JDO annotations so using those.
+17:14:51,366 (main) DEBUG [DataNucleus.MetaData] - Class "model.Kategorie" has been specified with JDO annotations so using those.
+17:14:51,368 (main) DEBUG [DataNucleus.MetaData] - Class "model.Status" has been specified with JDO annotations so using those.
+17:14:51,370 (main) DEBUG [DataNucleus.MetaData] - Class "model.Role" has been specified with JDO annotations so using those.
+17:14:51,373 (main) DEBUG [DataNucleus.MetaData] - Class "model.Uzytkownicy" has been specified with JDO annotations so using those.
+17:14:51,375 (main) DEBUG [DataNucleus.MetaData] - Populating all MetaData ...
+17:14:51,376 (main) DEBUG [DataNucleus.MetaData] - Class "model.Katalog" : Populating Meta-Data
+17:14:51,378 (main) DEBUG [DataNucleus.MetaData] - Class "model.Katalog" field "idFilm" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:51,378 (main) DEBUG [DataNucleus.MetaData] - Class "model.Katalog" field "idKategoria" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:51,378 (main) DEBUG [DataNucleus.MetaData] - Class "model.Katalog" field "idStatus" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:51,378 (main) DEBUG [DataNucleus.MetaData] - Class "model.Katalog" field "idUzytkownicy" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:51,378 (main) DEBUG [DataNucleus.MetaData] - Class "model.Katalog" field "dataZwrotu" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:51,380 (main) DEBUG [DataNucleus.MetaData] - Class "model.UprawnieniaUz" : Populating Meta-Data
+17:14:51,381 (main) DEBUG [DataNucleus.MetaData] - Class "model.UprawnieniaUz" field "roleId" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:51,381 (main) DEBUG [DataNucleus.MetaData] - Class "model.UprawnieniaUz" field "uzytkownikId" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:51,381 (main) DEBUG [DataNucleus.MetaData] - Class "model.Filmy" : Populating Meta-Data
+17:14:51,381 (main) DEBUG [DataNucleus.MetaData] - Class "model.Filmy" field "tytulFilmu" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:51,381 (main) DEBUG [DataNucleus.MetaData] - Class "model.Filmy" field "rok" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:51,381 (main) DEBUG [DataNucleus.MetaData] - Class "model.Filmy" field "obrazek" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:51,381 (main) DEBUG [DataNucleus.MetaData] - Class "model.Filmy" field "opis" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:51,382 (main) DEBUG [DataNucleus.MetaData] - Class "model.Filmy" field "usuniecie" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:51,382 (main) DEBUG [DataNucleus.MetaData] - Class "model.Filmy" field "rezyser" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:51,382 (main) DEBUG [DataNucleus.MetaData] - Class "model.Kategorie" : Populating Meta-Data
+17:14:51,382 (main) DEBUG [DataNucleus.MetaData] - Class "model.Kategorie" field "nazwaKategorii" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:51,382 (main) DEBUG [DataNucleus.MetaData] - Class "model.Status" : Populating Meta-Data
+17:14:51,382 (main) DEBUG [DataNucleus.MetaData] - Class "model.Status" field "nazwaStatus" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:51,382 (main) DEBUG [DataNucleus.MetaData] - Class "model.Role" : Populating Meta-Data
+17:14:51,382 (main) DEBUG [DataNucleus.MetaData] - Class "model.Role" field "nazwa" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:51,383 (main) DEBUG [DataNucleus.MetaData] - Class "model.Uzytkownicy" : Populating Meta-Data
+17:14:51,383 (main) DEBUG [DataNucleus.MetaData] - Class "model.Uzytkownicy" field "imie" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:51,383 (main) DEBUG [DataNucleus.MetaData] - Class "model.Uzytkownicy" field "nazwisko" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:51,383 (main) DEBUG [DataNucleus.MetaData] - Class "model.Uzytkownicy" field "email" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:51,383 (main) DEBUG [DataNucleus.MetaData] - Class "model.Uzytkownicy" field "haslo" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:51,383 (main) DEBUG [DataNucleus.MetaData] - Class "model.Uzytkownicy" field "kodAktywacyjny" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:51,384 (main) DEBUG [DataNucleus.MetaData] - Class "model.Uzytkownicy" field "usuniecie" : Adding Meta-Data for member since it didnt appear in the Meta-Data definition.
+17:14:51,384 (main) DEBUG [DataNucleus.MetaData] - Initialising all MetaData ...
+17:14:51,385 (main) DEBUG [DataNucleus.MetaData] - Class "model.Katalog" : Initialising Meta-Data
+17:14:51,387 (main) DEBUG [DataNucleus.MetaData] - Class "model.UprawnieniaUz" : Initialising Meta-Data
+17:14:51,387 (main) DEBUG [DataNucleus.MetaData] - Class "model.Filmy" : Initialising Meta-Data
+17:14:51,387 (main) DEBUG [DataNucleus.MetaData] - Class "model.Kategorie" : Initialising Meta-Data
+17:14:51,387 (main) DEBUG [DataNucleus.MetaData] - Class "model.Status" : Initialising Meta-Data
+17:14:51,388 (main) DEBUG [DataNucleus.MetaData] - Class "model.Role" : Initialising Meta-Data
+17:14:51,388 (main) DEBUG [DataNucleus.MetaData] - Class "model.Uzytkownicy" : Initialising Meta-Data
+17:14:51,388 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Load of Metadata complete
+17:14:51,395 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Katalog" starting ...
+17:14:51,417 (main) INFO  [DataNucleus.Enhancer] - Class "model.Katalog" is already enhanced.
+17:14:51,418 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Katalog" completed
+17:14:51,418 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.UprawnieniaUz" starting ...
+17:14:51,419 (main) INFO  [DataNucleus.Enhancer] - Class "model.UprawnieniaUz" is already enhanced.
+17:14:51,419 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.UprawnieniaUz" completed
+17:14:51,419 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Filmy" starting ...
+17:14:51,420 (main) INFO  [DataNucleus.Enhancer] - Class "model.Filmy" is already enhanced.
+17:14:51,421 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Filmy" completed
+17:14:51,421 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Kategorie" starting ...
+17:14:51,422 (main) INFO  [DataNucleus.Enhancer] - Class "model.Kategorie" is already enhanced.
+17:14:51,422 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Kategorie" completed
+17:14:51,422 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Status" starting ...
+17:14:51,423 (main) INFO  [DataNucleus.Enhancer] - Class "model.Status" is already enhanced.
+17:14:51,423 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Status" completed
+17:14:51,423 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Role" starting ...
+17:14:51,424 (main) INFO  [DataNucleus.Enhancer] - Class "model.Role" is already enhanced.
+17:14:51,425 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Role" completed
+17:14:51,425 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Uzytkownicy" starting ...
+17:14:51,426 (main) INFO  [DataNucleus.Enhancer] - Class "model.Uzytkownicy" is already enhanced.
+17:14:51,426 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "model.Uzytkownicy" completed
+17:14:51,426 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 7 classes.
+17:15:43,990 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Using PluginRegistry org.datanucleus.plugin.NonManagedPluginRegistry
+17:15:44,116 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus version 5.2.1 at URL file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-core/5.2.1/datanucleus-core-5.2.1.jar.
+17:15:44,133 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-core/5.2.1/datanucleus-core-5.2.1.jar!/plugin.xml.
+17:15:44,146 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.api.jdo version 5.2.1 at URL file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.2.1/datanucleus-api-jdo-5.2.1.jar.
+17:15:44,159 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.2.1/datanucleus-api-jdo-5.2.1.jar!/plugin.xml.
+17:15:44,166 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.store.rdbms version 5.2.1 at URL file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-rdbms/5.2.1/datanucleus-rdbms-5.2.1.jar.
+17:15:44,173 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-rdbms/5.2.1/datanucleus-rdbms-5.2.1.jar!/plugin.xml.
+17:15:44,206 (JavaFX Application Thread) DEBUG [DataNucleus.MetaData] - Parsing MetaData file "file:/G:/proJDO/target/classes/META-INF/persistence.xml" using handler "persistence" (validation="false")
+17:17:39,788 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Using PluginRegistry org.datanucleus.plugin.NonManagedPluginRegistry
+17:17:39,920 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus version 5.2.1 at URL file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-core/5.2.1/datanucleus-core-5.2.1.jar.
+17:17:39,942 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-core/5.2.1/datanucleus-core-5.2.1.jar!/plugin.xml.
+17:17:39,954 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.api.jdo version 5.2.1 at URL file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.2.1/datanucleus-api-jdo-5.2.1.jar.
+17:17:39,970 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.2.1/datanucleus-api-jdo-5.2.1.jar!/plugin.xml.
+17:17:39,977 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.store.rdbms version 5.2.1 at URL file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-rdbms/5.2.1/datanucleus-rdbms-5.2.1.jar.
+17:17:39,987 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-rdbms/5.2.1/datanucleus-rdbms-5.2.1.jar!/plugin.xml.
+17:17:40,021 (JavaFX Application Thread) DEBUG [DataNucleus.MetaData] - Parsing MetaData file "file:/G:/proJDO/target/classes/META-INF/persistence.xml" using handler "persistence" (validation="false")
+17:17:50,163 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Using PluginRegistry org.datanucleus.plugin.NonManagedPluginRegistry
+17:17:50,223 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus version 5.2.1 at URL file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-core/5.2.1/datanucleus-core-5.2.1.jar.
+17:17:50,245 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-core/5.2.1/datanucleus-core-5.2.1.jar!/plugin.xml.
+17:17:50,259 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.api.jdo version 5.2.1 at URL file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.2.1/datanucleus-api-jdo-5.2.1.jar.
+17:17:50,272 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.2.1/datanucleus-api-jdo-5.2.1.jar!/plugin.xml.
+17:17:50,280 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.store.rdbms version 5.2.1 at URL file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-rdbms/5.2.1/datanucleus-rdbms-5.2.1.jar.
+17:17:50,289 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-rdbms/5.2.1/datanucleus-rdbms-5.2.1.jar!/plugin.xml.
+17:17:50,344 (JavaFX Application Thread) DEBUG [DataNucleus.MetaData] - Parsing MetaData file "file:/G:/proJDO/target/classes/META-INF/persistence.xml" using handler "persistence" (validation="false")
+17:19:25,395 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Using PluginRegistry org.datanucleus.plugin.NonManagedPluginRegistry
+17:19:25,432 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus version 5.2.1 at URL file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-core/5.2.1/datanucleus-core-5.2.1.jar.
+17:19:25,456 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-core/5.2.1/datanucleus-core-5.2.1.jar!/plugin.xml.
+17:19:25,473 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.api.jdo version 5.2.1 at URL file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.2.1/datanucleus-api-jdo-5.2.1.jar.
+17:19:25,492 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.2.1/datanucleus-api-jdo-5.2.1.jar!/plugin.xml.
+17:19:25,505 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.store.rdbms version 5.2.1 at URL file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-rdbms/5.2.1/datanucleus-rdbms-5.2.1.jar.
+17:19:25,517 (JavaFX Application Thread) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/cotam/.m2/repository/org/datanucleus/datanucleus-rdbms/5.2.1/datanucleus-rdbms-5.2.1.jar!/plugin.xml.
+17:19:25,571 (JavaFX Application Thread) DEBUG [DataNucleus.MetaData] - Parsing MetaData file "file:/G:/proJDO/target/classes/META-INF/persistence.xml" using handler "persistence" (validation="false")
